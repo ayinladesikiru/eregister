@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eregister
+  datasource:
+    username: root
+    password: Adewunmi@1
+    url: jdbc:mysql://localhost:3306/eregister
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    maximum-pool-size: 10
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
